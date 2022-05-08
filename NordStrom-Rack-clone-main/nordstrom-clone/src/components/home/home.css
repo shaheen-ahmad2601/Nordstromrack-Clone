@@ -1,0 +1,257 @@
+.main {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+
+
+.head {
+    height: 100px;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+}
+
+
+.shop {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.sign {
+    padding: 10px 30px;
+    background-color: white;
+    border: 1px solid #1b8ba7;
+    cursor: pointer;
+    color: #1b8ba7;
+    transition: 0.3s;
+}
+
+.sign:hover {
+    background-color: #1b8ba7;
+    color: white;
+}
+
+.display1 {
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+    width: 90%;
+}
+
+.display1 img {
+    width: 100%;
+}
+
+.display2 {
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+    width: 90%;
+}
+
+.display2 img {
+    width: 80%;
+}
+
+.each-slide {
+    position: relative;
+}
+
+.each-slide img {
+    width: 100%;
+}
+
+.each-slide>span {
+    position: absolute;
+    top: 20%;
+    right: 8%;
+    width: 25%;
+    text-align: left;
+}
+
+.way {
+    width: 90%;
+    /* border: 1px solid black; */
+}
+
+.way>img {
+    width: 100%;
+}
+
+.great {
+    /* margin-bottom: 10px; */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    padding-left: 20px;
+    width: 90%;
+}
+
+.image1 {
+    /* border: 1px solid black; */
+    /* height: 400px; */
+    margin: 50px 0;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.image1>div {
+    /* border: 1px solid red; */
+    width: 17%;
+}
+
+.box {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 10px;
+}
+
+.pimage>img {
+    height: 100%;
+    width: 100%;
+}
+
+.product {
+    color: rgb(60, 57, 57);
+}
+
+.mom {
+    display: flex;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.formom {
+    /* border: 1px solid rgb(104, 197, 17); */
+    width: 60%;
+    padding-left: 5%;
+}
+
+.formom>img {
+    width: 100%;
+}
+
+.mother {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* border: 1px solid red; */
+    /* padding-right: 40%; */
+}
+
+.trending {
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 2%;
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.opt {
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.opt>img {
+    width: 100%;
+}
+
+.confidence {
+    /* border: 1px solid black; */
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.cimg {
+    width: 100%;
+    /* border: 1px solid red; */
+    /* padding-left: 5%; */
+}
+
+.cimg>img {
+    width: 100%;
+    height: 100%;
+}
+
+.thenew {
+    width: 30%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+}
+
+.intro {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 2%;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.d1 {
+    /* border: 1px solid red; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d1>div>img {
+    width: 100%;
+    height: 100%;
+}
+
+.cat {
+    display: flex;
+    justify-content: space-around;
+}
+
+.d2 {
+    /* border: 1px solid red; */
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.d2>div>img {
+    width: 100%;
+}
+
+.loving {
+    margin-top: 30px;
+    display: flex;
+    /* width: 80%; */
+    gap: 1%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.loving>div {
+    width: 22%;
+}
+
+.loving>div>img {
+    width: 100%;
+}

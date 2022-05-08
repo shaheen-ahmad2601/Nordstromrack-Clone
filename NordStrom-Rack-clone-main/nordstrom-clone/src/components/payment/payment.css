@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F4F4F4;
+}
+
+/* ====================payment page==================== */
+
+.pay_page nav {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+.nav_logo {
+    width: 45px;
+    float: left;
+    margin: 33px 30px;
+    cursor: pointer;
+}
+
+.nav_cart {
+    float: right;
+    font-size: 25px;
+    width: 45px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.pay_page main {
+    width: 70%;
+    margin: auto;
+}
+
+.main_left {
+    width: 60%;
+    float: left;
+}
+
+.main_right {
+    width: 38%;
+    float: right;
+}
+
+.main_first,
+.main_sec,
+.main_third,
+.main_four,
+.right_first,
+.right_sec {
+    margin-top: 20px;
+    background: white;
+    padding: 10px 0 0 30px;
+}
+
+.main_four {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.right_first,
+.right_sec {
+    padding-bottom: 10px;
+}
+
+
+.main_first h1 {
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(45, 40, 40);
+    margin: 10px 0;
+}
+
+.main_first h2,
+.main_sec h2,
+.main_third h2,
+.main_four h2,
+.right_first h2,
+.right_sec h2 {
+    font-weight: 400;
+    font-size: 22px;
+    color: rgb(45, 40, 40);
+    margin: 15px 0;
+}
+
+.main_first h3,
+.main_sec h3,
+.right_sec h3 {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(45, 40, 40);
+}
+
+.right_sec h4 {
+    font-size: 11px;
+    padding-right: 15px;
+    font-weight: 400;
+    color: rgb(100, 96, 96);
+}
+
+.main_first span,
+.main_sec span {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(7, 100, 193);
+}
+
+.main_first div {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.main_first img {
+    width: 10%;
+}
+
+.main_sec label,
+.main_third label {
+    font-weight: 600;
+    display: block;
+}
+
+.main_sec input,
+.main_third input:not(.inp_check) {
+    width: 65%;
+    height: 30px;
+    border: 1px solid gray;
+    outline: none;
+    margin: 5px 0 20px 0;
+    padding: 5px;
+}
+
+.main_sec input:focus,
+.main_third input:focus {
+    border-bottom: 3px solid rgb(24, 124, 218);
+}
+
+.inp_check {
+    margin: 15px 5px;
+}
+
+.inp_cvv {
+    width: 10% !important;
+}
+
+.main_four div:not(.order_submit),
+.right_first div:not(.order_submit) {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-bottom: 13px;
+    font-size: 17px;
+    color: rgb(45, 40, 40);
+}
+
+.right_first div {
+    width: 90% !important;
+}
+
+.main_four hr,
+.right_first hr {
+    width: 60% !important;
+    margin: 13px 0 18px 0;
+}
+
+.total_div {
+    font-size: 20px !important;
+}
+
+.order_submit {
+    background: #0a8aa7;
+    color: white !important;
+    padding: 12px 0;
+    text-align: center;
+    width: 60%;
+    margin: 20px 0 0 0;
+    border: 1px solid #0a8aa7;
+    cursor: pointer;
+}
+
+.order_submit:hover {
+    background-color: transparent;
+    color: #0a8aa7 !important;
+    border: 1px solid #0a8aa7;
+}
+
+.right_text {
+    font-size: 12px !important;
+    margin: 20px 0;
+}
