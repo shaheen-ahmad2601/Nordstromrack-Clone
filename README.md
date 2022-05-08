@@ -46,7 +46,7 @@ To run, follow these steps:
 - Clone my repository `https://github.com/shaheen-ahmad2601/Nordstromrack-Clone`
 - Open that code in your VS code `Project Files/App.jsx`
 - Open the `App.jsx` on Live server
-- Then you can Navigate through other pages from Home page like `index.html`, `product.html` etc
+- Then you can Navigate through other pages from Home page like `App.jsx`, `main.jsx` etc
 
 ## Built with 
 
