@@ -1,9 +1,9 @@
-# [Nordstromrack](https://nordstrom-rack.netlify.app/)
+# [Nordstrom - rack](https://nordstrom-rack.netlify.app/)
 
 <table>
 <tr>
 <td>
-  This is a working clone of the Nordstorm Rack website, this project has been done in order to learn the basic working of a website by implementing HTML5, CSS3, Javascript ReactJs, and in the backend side we have used NodejS, MongoDB, Expressjs. Working on this project helps to learn a lot of new things that goes into building a website. This is our collaborative project with a team of 6 members, under the guidance of MASAI Team to facilitate the full stack web development curriculam.
+  This is a working clone of the Nordstorm Rack website, this project has been done in order to learn the basic working of a website by implementing HTML5, CSS3, Javascript ReactJs, and in the backend side we have used NodejS,Expressjs and MongoDB. Working on this project helps to learn a lot of new things that goes into building a website. This is our collaborative project with a team of 6 members, under the guidance of MASAI Team to facilitate the full stack web development curriculam.
 
 </td>
 </tr>
